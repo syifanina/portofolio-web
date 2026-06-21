@@ -174,8 +174,15 @@ document.addEventListener('DOMContentLoaded', () => {
     const modal = document.getElementById('projectModal');
     const closeModalBtn = document.querySelector('.close-modal');
 
-    window.openProjectModal = (title, embedLink = '', openLink = '') => {
+    window.openProjectModal = (title, embedLink = '', openLink = '', isModule = false) => {
         document.querySelector('.project-modal-title').textContent = title;
+
+        const iframeContainer = document.querySelector('.project-iframe-container');
+        if (isModule) {
+            iframeContainer.classList.add('is-module');
+        } else {
+            iframeContainer.classList.remove('is-module');
+        }
 
         const iframe = document.querySelector('.project-iframe');
         const fallback = document.querySelector('.project-iframe-fallback');
