@@ -814,7 +814,7 @@ ul {
 /* Clean Project Modal */
 .project-modal-content {
     max-width: 960px;
-    height: 95vh;
+    max-height: 95vh;
     display: flex;
     flex-direction: column;
 }
@@ -823,7 +823,6 @@ ul {
     display: flex;
     flex-direction: column;
     padding: 20px 24px;
-    height: 100%;
     gap: 14px;
 }
 
@@ -1482,5 +1481,10 @@ footer {
 
     .contact-section {
         border-radius: 0;
+    }
+
+    .project-iframe-container.is-module {
+        aspect-ratio: auto;
+        height: 70vh;
     }
 }
