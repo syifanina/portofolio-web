@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syifa Sabrina's Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Mobile Header / Hamburger -->
+    <header class="mobile-header">
+        <h2 class="mobile-logo">Syifa Sabrina</h2>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+            <i class="fas fa-bars"></i>
+        </button>
+    </header>
+
+    <!-- Floating Desktop Toggle -->
+    <button id="desktop-toggle-open" class="floating-desktop-btn" aria-label="Open Menu">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Sidebar Navigation -->
+    <nav class="sidebar" id="sidebar">
+        <div class="sidebar-top">
+            <button id="desktop-toggle-close" class="desktop-close-btn" aria-label="Close Menu">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <h1 class="portfolio-logo">Syifa Sabrina's<br><span>Portfolio</span></h1>
+
+            <ul class="nav-links">
+                <li><a href="#home" class="active"><i class="fas fa-home"></i> HOME</a></li>
+                <li><a href="#about"><i class="fas fa-user"></i> ABOUT ME</a></li>
+                <li><a href="#expertise"><i class="fas fa-star"></i> EXPERTISE</a></li>
+                <li><a href="#experience"><i class="fas fa-briefcase"></i> EXPERIENCE</a></li>
+                <li><a href="#projects"><i class="fas fa-folder-open"></i> PROJECTS</a></li>
+                <li><a href="#publications"><i class="fas fa-book"></i> PUBLICATIONS & IPR</a></li>
+                <li><a href="#skills"><i class="fas fa-lightbulb"></i> SKILLS</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> CONTACT</a></li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+
+        <!-- Home Section -->
+        <section id="home" class="section fade-up">
+            <div class="home-container">
+                <div class="home-text">
+                    <p class="greeting">Bismillah.</p>
+                    <h2 class="hero-heading">Hi, I'm <br> Syifa Sabrina</h2>
+                    <h3 class="subtitle">Elementary Educator <br> Digital Learning Media Developer</h3>
+                    <p class="introduction">Creating meaningful learning experiences for young learners through
+                        pedagogy, creativity, and technology.</p>
+
+                    <div class="home-buttons">
+                        <a href="#projects" class="btn btn-primary">Explore My Work <i
+                                class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="home-image">
+                    <img src="https://lh3.googleusercontent.com/d/1nRs9q_dqFk99faRQXzF_mM7M9o7vHXdG" alt="Syifa Sabrina Profile" class="hero-profile-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="section fade-up">
+            <h2 class="section-title">ABOUT ME</h2>
+            <div class="about-container">
+
+                <div class="about-text">
+                    <p>Elementary Education graduate specializing in digital learning media development and elementary
+                        classroom teaching. Experienced in creating interactive learning media, web-based e-modules,
+                        digital assessments, and student-centered learning activities using Canva, Genially, AI-assisted
+                        tools, HTML, CSS, and JavaScript. Combining pedagogy and technology to deliver meaningful,
+                        engaging, and accessible learning experiences for elementary students.</p>
+
+                    <div class="achievement-cards">
+                        <div class="achievement-card">
+                            <i class="fas fa-graduation-cap"></i>
+                            <h4>Education</h4>
+                            <p>Bachelor’s Degree in Elementary School Teacher Education<br>State University of Jakarta |
+                                2021–2026<br>GPA: 3.87 / 4.00</p>
+                        </div>
+                        <div class="achievement-card">
+                            <i class="fas fa-chalkboard-teacher"></i>
+                            <h4>Teaching</h4>
+                            <p>Guiding students’ learning while nurturing positive character, respectful behavior, and
+                                daily adab.</p>
+                        </div>
+                        <div class="achievement-card">
+                            <i class="fas fa-users"></i>
+                            <h4>Community Experience | 2022–2024</h4>
+                            <p>Curriculum Staff & Teacher at Rumah Belajar Ceria.<br>Supporting learning materials,
+                                assessments, and tutoring programs.</p>
+                        </div>
+                        <div class="achievement-card">
+                            <i class="fas fa-laptop-code"></i>
+                            <h4>What I Love Creating</h4>
+                            <p>Meaningful lesson plans, interactive learning media, creative classroom activities, and
+                                visual resources for young learners.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Expertise Section -->
+        <section id="expertise" class="section fade-up">
+            <h2 class="section-title">EXPERTISE</h2>
+            <div class="expertise-grid">
+                <div class="expertise-card">
+                    <img src="https://drive.google.com/thumbnail?id=1US1UW4mv8VDqCqpl3JRgVwLc4Flq5Vow&sz=w1000" alt="Digital Learning Media Development"
+                        class="expertise-illu">
+                    <h3>Digital Learning Media Development</h3>
+                </div>
+                <div class="expertise-card">
+                    <img src="https://drive.google.com/thumbnail?id=1c9Jdn3QdywIsv6OmG1TuvF1aStZhC7wK&sz=w1000" alt="Interactive Learning Design"
+                        class="expertise-illu">
+                    <h3>Interactive Learning Design</h3>
+                </div>
+                <div class="expertise-card">
+                    <img src="https://drive.google.com/thumbnail?id=1_hIWsgYvwKeqAM5zrJ7SbPfpNbNt1XC7&sz=w1000" alt="Elementary Teaching" class="expertise-illu">
+                    <h3>Elementary Teaching</h3>
+                </div>
+                <div class="expertise-card">
+                    <img src="https://drive.google.com/thumbnail?id=1gfMfhk5j-JQzGfWApP_-0YlogAeH2rC7&sz=w1000" alt="Student-Centered Learning Approaches"
+                        class="expertise-illu">
+                    <h3>Student-Centered Learning Approaches</h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section fade-up">
+            <h2 class="section-title">EXPERIENCE</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">March 2026 – June 2026</div>
+                        <h3 class="timeline-title">Freelance Web-Based E-Module Developer</h3>
+                        <h4 class="timeline-company">LPPM Universitas Negeri Jakarta</h4>
+                        <p>Developed an 8-unit interactive English e-module with quizzes, pronunciation audio, videos,
+                            and web-based learning features for elementary students.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">April 2026 – June 2026</div>
+                        <h3 class="timeline-title">Substitute Homeroom Teacher – Grade 4</h3>
+                        <h4 class="timeline-company">SDS Islam Al-Azhar 15 Pamulang</h4>
+                        <p>Managed Grade 4 learning for 32 students while supporting academic growth, digital literacy,
+                            character building, and daily adab.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">December 2025 – January 2026</div>
+                        <h3 class="timeline-title">Freelance Research Assistant</h3>
+                        <h4 class="timeline-company">LPPM Universitas Negeri Jakarta</h4>
+                        <p>Supported research proposal development through literature reviews, reference organization,
+                            and document structuring.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">October 2025 – December 2025</div>
+                        <h3 class="timeline-title">Freelance E-Module Layout Designer</h3>
+                        <h4 class="timeline-company">LPPM Universitas Negeri Jakarta</h4>
+                        <p>Designed clear, visually engaging, and student-friendly layouts for digital learning modules
+                            in collaboration with lecturers.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">July 2023 – December 2023</div>
+                        <h3 class="timeline-title">Teacher Assistant</h3>
+                        <h4 class="timeline-company">Merdeka Belajar Kampus Merdeka (MBKM) | SDN Kebayoran Lama Utara 01
+                            Pagi</h4>
+                        <p>Supported classroom instruction, learning material preparation, and literacy-numeracy
+                            activities for Grades 1–3 students.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section fade-up">
+            <h2 class="section-title">PROJECTS</h2>
+
+            <!-- Project Filters -->
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="module">Teaching Modules</button>
+                <button class="filter-btn" data-filter="media">Interactive Media</button>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project Card 18 — English Teaching E-Module Unit 4 -->
+                <div class="project-card" data-category="module">
+                    <div class="project-image-wrapper">
+                        <img src="https://drive.google.com/thumbnail?id=1vo4UH7CilmpyOSYYhoMIOIT6qne-jT0S&sz=w1000" alt="English Teaching E-Module – Grade 4"
+                            class="project-thumbnail">
+                    </div>
+                    <div class="project-info">
+                        <h3>English Teaching E-Module – Grade 4</h3>
+                        <p>A Unit 4 module, Say the Time Out, featuring time-telling activities, pronunciation audio,
+                            interactive videos, and quizzes.</p>
+                        <button class="btn btn-outline view-project-btn"
+                            onclick="openProjectModal('English Teaching E-Module – Grade 4 (Unit 4)', 'https://view.genially.com/6a297512b1b77e29a4354466', 'https://view.genially.com/6a297512b1b77e29a4354466', true)">View
+                            Project</button>
+                    </div>
+                </div>
+                <!-- Project Card 17 — English Teaching E-Module Grade 4 -->
+                <div class="project-card" data-category="module">
+                    <div class="project-image-wrapper">
+                        <img src="https://drive.google.com/thumbnail?id=1M6_Bo2pkrAW2EJjxQyhp8G4noyCkYT-D&sz=w1000" alt="English Teaching E-Module – Grade 4"
+                            class="project-thumbnail">
+                    </div>
+                    <div class="project-info">
+                        <h3>English Teaching E-Module – Grade 4</h3>
+                        <p>A Unit 1 module, Move Your Body, featuring pronunciation audio, interactive videos, and
+                            quizzes.</p>
+                        <button class="btn btn-outline view-project-btn"
+                            onclick="openProjectModal('English Teaching E-Module – Grade 4 (Unit 1)', 'https://view.genially.com/6a297512b1b77e29a4354466', 'https://view.genially.com/6a297512b1b77e29a4354466', true)">View
+                            Project</button>
+                    </div>
+                </div>
+                <!-- Project Card 16 — Interactive Learning Media Grade 5 English -->
+                <div class="project-card" data-category="media">
+                    <div class="project-image-wrapper">
+                        <img src="https://drive.google.com/thumbnail?id=1eu5y5r0IqEH3U4Wg-qUXzHFhvhEaAfO9&sz=w1000" alt="Interactive Learning Media – Grade 5"
+                            class="project-thumbnail">
+                    </div>
+                    <div class="project-info">
+                        <h3>Interactive Learning Media – Grade 5</h3>
+                        <p>An English learning media on prepositions of place through house exploration, audio,
+                            flashcards, and interactive videos.</p>
+                        <button class="btn btn-outline view-project-btn"
+                            onclick="openProjectModal('Interactive Learning Media – Grade 5 (English)', 'https://view.genially.com/68c3faebfd60e69137fc245f', 'https://view.genially.com/68c3faebfd60e69137fc245f')">View
+                            Project</button>
+                    </div>
+                </div>
+                <!-- Project Card 15 — Interactive Learning Media Bangun Ruang -->
+                <div class="project-card" data-category="media">
+                    <div class="project-image-wrapper">
+                        <img src="https://drive.google.com/thumbnail?id=1Gx_T2DQW4FKYaoxDBfpFCbf2tjYY747o&sz=w1000" alt="Interactive Learning Media – Grade 4"
+                            class="project-thumbnail">
+                    </div>
+                    <div class="project-info">
+                        <h3>Interactive Learning Media – Grade 4</h3>
+                        <p>A Mathematics learning media on three-dimensional shapes, featuring interactive 3D
+                            exploration.</p>
+                        <button class="btn btn-outline view-project-btn"
+                            onclick="openProjectModal('Interactive Learning Media – Grade 4 (Mathematics)', 'https://view.genially.com/69d0c9aa83c3a8fa1f5d4648', 'https://view.genially.com/69d0c9aa83c3a8fa1f5d4648')">View
+                            Project</button>
+                    </div>
+                </div>
+                <!-- Project Card 14 — Interactive Learning Media Budaya Kelas 4 -->
+                <div class="project-card" data-category="media">
+                    <div class="project-image-wrapper">
+                        <img src="https://drive.google.com/thumbnail?id=1wxwXyTLiIoUQe7aqTr5FaOCjj1RnZagd&sz=w1000" alt="Interactive Learning Media – Grade 4"
+                            class="project-thumbnail">
+                    </div>
+                    <div class="project-info">
+                        <h3>Interactive Learning Media – Grade 4</h3>
+                        <p>A Social Studies learning media on Indonesia's cultural diversity, featuring learning
+                            materials and an interactive quiz with explanatory feedback.</p>
+                        <button class="btn btn-outline view-project-btn"
+                            onclick="openProjectModal('Interactive Learning Media – Grade 4 (Social Studies)', 'https://view.genially.com/65597f1de5bec40011912f3d', 'https://view.genially.com/65597f1de5bec40011912f3d')">View
+                            Project</button>
+                    </div>
+                </div>
+                <!-- Project Card 13 — Interactive Learning Media Basketball -->
+                <div class="project-card" data-category="media">
+                    <div class="project-image-wrapper">
+                        <img src="https://drive.google.com/thumbnail?id=1aYywllzn2pV7qs3I6wLJZVBSchBFI3S0&sz=w1000" alt="Interactive Learning Media – Grade 4"
+                            class="project-thumbnail">
+                    </div>
+                    <div class="project-info">
+                        <h3>Interactive Learning Media – Grade 4</h3>
+                        <p>An interactive Physical Education learning media on basketball fundamentals, featuring an
+                            instructional video.</p>
+                        <button class="btn btn-outline view-project-btn"
+                            onclick="openProjectModal('Interactive Learning Media – Grade 4 (Physical Education)', 'https://view.genially.com/662768026f4bad001487767f', 'https://view.genially.com/662768026f4bad001487767f')">View
+                            Project</button>
+                    </div>
+                </div>
+                <!-- Project Card 12 — Interactive Learning Media Pola Bilangan -->
+                <div class="project-card" data-category="media">
+                    <div class="project-image-wrapper">
+                        <img src="https://drive.google.com/thumbnail?id=19GEDFmpyxi5wHXi8vptL2Nm5Z0bU1ShJ&sz=w1000" alt="Interactive Learning Media – Grade 4"
+                            class="project-thumbnail">
+                    </div>
+                    <div class="project-info">
+                        <h3>Interactive Learning Media – Grade 4</h3>
+                        <p>A Mathematics learning media on number patterns, featuring an instructional video and an
+                            interactive quiz with explanatory feedback.</p>
+                        <button class="btn btn-outline view-project-btn"
+                            onclick="openProjectModal('Interactive Learning Media – Grade 4 (Number Patterns)', 'https://syifanina.github.io/ModulAjar/Pola_Bilangan/', 'https://syifanina.github.io/ModulAjar/Pola_Bilangan/')">View
+                            Project</button>
+                    </div>
+                </div>
+                <!-- Project Card 11 — Interactive Learning Media Cerita Rakyat -->
+                <div class="project-card" data-category="media">
+                    <div class="project-image-wrapper">
+                        <img src="https://drive.google.com/thumbnail?id=14wwTLjDclIVPFt3Hz80N94_uby9qP1Qq&sz=w1000" alt="Interactive Learning Media – Grade 4"
+                            class="project-thumbnail">
+                    </div>
+                    <div class="project-info">
+                        <h3>Interactive Learning Media – Grade 4</h3>
+                        <p>An Indonesian Language learning media on folktales, featuring an instructional video and an
+                            interactive quiz with explanatory feedback.</p>
+                        <button class="btn btn-outline view-project-btn"
+                            onclick="openProjectModal('Interactive Learning Media – Grade 4 (Folktales)', 'https://syifanina.github.io/ModulAjar/CeritaRakyat/?v=baru', 'https://syifanina.github.io/ModulAjar/CeritaRakyat/')">View
+                            Project</button>
+                    </div>
+                </div>
+                <!-- Project Card 10 — Interactive Quiz Pendidikan Pancasila -->
+                <div class="project-card" data-category="media">
+                    <div class="project-image-wrapper">
+                        <img src="https://drive.google.com/thumbnail?id=1PD1Fzmq0dUTK1NmA9fWm_827NGb2gfGc&sz=w1000" alt="Interactive Quiz – Grade 4"
+                            class="project-thumbnail">
+                    </div>
+                    <div class="project-info">
+                        <h3>Interactive Quiz – Grade 4</h3>
+                        <p>A Civic Education quiz on unity and national integrity, featuring explanatory feedback to
+                            support students' understanding.</p>
+                        <button class="btn btn-outline view-project-btn"
+                            onclick="openProjectModal('Interactive Quiz – Grade 4 (Pendidikan Pancasila)', 'https://syifanina.github.io/ModulAjar/PendidikanPancasila4/', 'https://syifanina.github.io/ModulAjar/PendidikanPancasila4/')">View
+                            Project</button>
+                    </div>
+                </div>
+                <!-- Project Card 9 — Interactive Quiz IPAS Bab 4 -->
+                <div class="project-card" data-category="media">
+                    <div class="project-image-wrapper">
+                        <img src="https://drive.google.com/thumbnail?id=1SUzlHxdXmtH2ShDDDZIeL6FLOB6mdgZx&sz=w1000" alt="Interactive Quiz – Grade 4"
+                            class="project-thumbnail">
+                    </div>
+                    <div class="project-info">
+                        <h3>Interactive Quiz – Grade 4</h3>
+                        <p>A Social Studies quiz on Indonesia's cultural diversity, featuring explanatory feedback to
+                            support students' understanding.</p>
+                        <button class="btn btn-outline view-project-btn"
+                            onclick="openProjectModal('Interactive Quiz – Grade 4 (IPAS Bab 4)', 'https://syifanina.github.io/ModulAjar/IPAS_Bab4/', 'https://syifanina.github.io/ModulAjar/IPAS_Bab4/')">View
+                            Project</button>
+                    </div>
+                </div>
+                <!-- Project Card 8 — Mathematics Penjumlahan Bersusun -->
+                <div class="project-card" data-category="module">
+                    <div class="project-image-wrapper">
+                        <img src="https://drive.google.com/thumbnail?id=1nk8zkciF86ijeH4zmvws4MLGe19uKFO1&sz=w1000"
+                            alt="Mathematics Teaching Module – Column Addition" class="project-thumbnail">
+                    </div>
+                    <div class="project-info">
+                        <h3>Mathematics Teaching Module – Grade 2</h3>
+                        <p>A differentiated learning module on column addition, designed with structured activities to
+                            support students with diverse learning needs.</p>
+                        <button class="btn btn-outline view-project-btn"
+                            onclick="openProjectModal('Mathematics Teaching Module – Grade 2 (Column Addition)', 'https://drive.google.com/file/d/1b-RL_mNWC4uNwLN2OBbDlLMB1Q0YyAXQ/preview', 'https://drive.google.com/file/d/1b-RL_mNWC4uNwLN2OBbDlLMB1Q0YyAXQ/view')">View
+                            Project</button>
+                    </div>
+                </div>
+                <!-- Project Card 5 — Social Studies -->
+                <div class="project-card" data-category="module">
+                    <div class="project-image-wrapper">
+                        <img src="https://drive.google.com/thumbnail?id=1QNKvvoa0vcUkr0yLK184KzYiYHrx7q-n&sz=w1000" alt="Social Studies Teaching Module"
+                            class="project-thumbnail">
+                    </div>
+                    <div class="project-info">
+                        <h3>Social Studies Teaching Module – Grade 4</h3>
+                        <p>A Project-Based Learning module on Indonesia's cultural diversity through a digital mind map
+                            project about local traditions.</p>
+                        <button class="btn btn-outline view-project-btn"
+                            onclick="openProjectModal('Social Studies Teaching Module – Grade 4', 'https://drive.google.com/file/d/1LbI7_ES4SJttknv1dV5bIAmVsVe_uMHA/preview', 'https://drive.google.com/file/d/1LbI7_ES4SJttknv1dV5bIAmVsVe_uMHA/view')">View
+                            Project</button>
+                    </div>
+                </div>
+                <!-- Project Card 6 — Mathematics Fractions -->
+                <div class="project-card" data-category="module">
+                    <div class="project-image-wrapper">
+                        <img src="https://drive.google.com/thumbnail?id=12z_GocwjoHNFyrkRQFl1oJtcEXpI2caA&sz=w1000"
+                            alt="Mathematics Learning Material – Fractions" class="project-thumbnail">
+                    </div>
+                    <div class="project-info">
+                        <h3>Mathematics Learning Material – Grade 4</h3>
+                        <p>A visual learning material on fractions with clear examples and simple activities.</p>
+                        <button class="btn btn-outline view-project-btn"
+                            onclick="openProjectModal('Mathematics Learning Material – Grade 4 (Fractions)', 'https://drive.google.com/file/d/1LF5q8F-SfidkBoPCgtHnhRe2icSk_3O0/preview', 'https://drive.google.com/file/d/1LF5q8F-SfidkBoPCgtHnhRe2icSk_3O0/view')">View
+                            Project</button>
+                    </div>
+                </div>
+                <!-- Project Card 5 — Mathematics Bangun Ruang -->
+                <div class="project-card" data-category="module">
+                    <div class="project-image-wrapper">
+                        <img src="https://drive.google.com/thumbnail?id=1cAfK-BjO9kAaXbdN9sQuJwSrC4M4FNCa&sz=w1000"
+                            alt="Mathematics Teaching Module – Bangun Ruang" class="project-thumbnail">
+                    </div>
+                    <div class="project-info">
+                        <h3>Mathematics Teaching Module – Grade 4</h3>
+                        <p>A peer teaching module on three-dimensional shapes through collaborative learning activities.
+                        </p>
+                        <button class="btn btn-outline view-project-btn"
+                            onclick="openProjectModal('Mathematics Teaching Module – Grade 4 (Bangun Ruang)', 'https://drive.google.com/file/d/1CeHZ_CkraCRgR0Almsxg1AtUKw2ih9bB/preview', 'https://drive.google.com/file/d/1CeHZ_CkraCRgR0Almsxg1AtUKw2ih9bB/view')">View
+                            Project</button>
+                    </div>
+                </div>
+                <!-- Project Card 1 — Mathematics KPK FPB -->
+                <div class="project-card" data-category="module">
+                    <div class="project-image-wrapper">
+                        <img src="https://drive.google.com/thumbnail?id=1tbA9w-KdY4zTafI3CYKLaqo1F5JGoMW7&sz=w1000" alt="Mathematics Teaching Module"
+                            class="project-thumbnail">
+                    </div>
+                    <div class="project-info">
+                        <h3>Mathematics Teaching Module – Grade 4</h3>
+                        <p>A learning module on Least Common Multiple (LCM) and Greatest Common Factor (GCF) through
+                            guided practice and problem-solving activities.</p>
+                        <button class="btn btn-outline view-project-btn"
+                            onclick="openProjectModal('Mathematics Teaching Module – Grade 4', 'https://drive.google.com/file/d/1gebf3jRF06iQYnOIi6PHsyv9KxJnSNCe/preview', 'https://drive.google.com/file/d/1gebf3jRF06iQYnOIi6PHsyv9KxJnSNCe/view')">View
+                            Project</button>
+                    </div>
+                </div>
+                <!-- Project Card 2 — Indonesian Language -->
+                <div class="project-card" data-category="module">
+                    <div class="project-image-wrapper">
+                        <img src="https://drive.google.com/thumbnail?id=1Eb05KF3pjtupOvpx0j1aschzqgxvDMVq&sz=w1000" alt="Indonesian Language Teaching Module"
+                            class="project-thumbnail">
+                    </div>
+                    <div class="project-info">
+                        <h3>Indonesian Language Teaching Module – Grade 4</h3>
+                        <p>A Project-Based Learning module on procedure texts through a digital poster-making activity.
+                        </p>
+                        <button class="btn btn-outline view-project-btn"
+                            onclick="openProjectModal('Indonesian Language Teaching Module – Grade 4', 'https://drive.google.com/file/d/1t4pmTCpUSPUy-seCJJTp5haVvxf6_rkO/preview', 'https://drive.google.com/file/d/1t4pmTCpUSPUy-seCJJTp5haVvxf6_rkO/view')">View
+                            Project</button>
+                    </div>
+                </div>
+                <!-- Project Card 3 — Solar System Presentation -->
+                <div class="project-card" data-category="media">
+                    <div class="project-image-wrapper">
+                        <img src="https://drive.google.com/thumbnail?id=1AR39cT9kbME7DD8G-TIg2Yk826XlPsB-&sz=w1000" alt="Solar System Learning Presentation"
+                            class="project-thumbnail">
+                    </div>
+                    <div class="project-info">
+                        <h3>Solar System Learning Presentation – Grade 6</h3>
+                        <p>An interactive PowerPoint with visual explanations about the solar system.</p>
+                        <button class="btn btn-outline view-project-btn"
+                            onclick="openProjectModal('Solar System Learning Presentation – Grade 6', 'https://drive.google.com/file/d/1Ru57PYdp6PeX50ElLfRbiLAiZOePg1p8/preview', 'https://drive.google.com/file/d/1Ru57PYdp6PeX50ElLfRbiLAiZOePg1p8/view')">View
+                            Project</button>
+                    </div>
+                </div>
+                <!-- Project Card 4 — Solar System PjBL -->
+                <div class="project-card" data-category="module">
+                    <div class="project-image-wrapper">
+                        <img src="https://drive.google.com/thumbnail?id=1Wq1bAghLaali5GIkn8GmdqHFjb7Cc2su&sz=w1000"
+                            alt="Solar System PjBL Teaching Module" class="project-thumbnail">
+                    </div>
+                    <div class="project-info">
+                        <h3>Science Teaching Module – Grade 6</h3>
+                        <p>A Project-Based Learning module on the solar system through collaborative learning and
+                            project creation.</p>
+                        <button class="btn btn-outline view-project-btn"
+                            onclick="openProjectModal('Science Teaching Module – Grade 6', 'https://drive.google.com/file/d/1OBfB6CQ09MFUIjLOWtZ0qJ0_eNloOWMq/preview', 'https://drive.google.com/file/d/1OBfB6CQ09MFUIjLOWtZ0qJ0_eNloOWMq/view')">View
+                            Project</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Publications & IPR Section -->
+        <section id="publications" class="section fade-up">
+            <h2 class="section-title">PUBLICATIONS & IPR</h2>
+            <div class="publications-layout">
+                <!-- Left Column: Publications List -->
+                <div class="pub-list-column">
+                    <!-- Pub Card 1 -->
+                    <div class="pub-card"
+                        onclick="openPubModal('Pengembangan Multimedia Interaktif Genially Berbasis Guided Reading pada Pembelajaran Bahasa Inggris Kelas V Sekolah Dasar', 'DIKODA: Jurnal Pendidikan Sekolah Dasar', '25 November 2025', 'https://jurnal.pelitabangsa.ac.id/index.php/JPGSD/article/view/6455')">
+                        <div class="pub-number-ribbon">
+                            <span class="pub-num">01</span>
+                        </div>
+                        <div class="pub-details">
+                            <h3>Pengembangan Multimedia Interaktif Genially Berbasis Guided Reading pada Pembelajaran
+                                Bahasa Inggris Kelas V Sekolah Dasar</h3>
+                            <p class="pub-source">DIKODA: Jurnal Pendidikan Sekolah Dasar</p>
+                            <p class="pub-year">Nov 25, 2025</p>
+                        </div>
+                    </div>
+                    <!-- Pub Card 2 -->
+                    <div class="pub-card"
+                        onclick="openPubModal('Penerapan Pembelajaran Berdiferensiasi bagi Siswa Tunarungu di Sekolah Dasar Inklusi', 'JPK: Jurnal Pendidikan Khusus', '22 July 2025', 'https://journal.unj.ac.id/unj/index.php/jpk/article/view/57957')">
+                        <div class="pub-number-ribbon">
+                            <span class="pub-num">02</span>
+                        </div>
+                        <div class="pub-details">
+                            <h3>Penerapan Pembelajaran Berdiferensiasi bagi Siswa Tunarungu di Sekolah Dasar Inklusi
+                            </h3>
+                            <p class="pub-source">JPK: Jurnal Pendidikan Khusus</p>
+                            <p class="pub-year">July 22, 2025</p>
+                        </div>
+                    </div>
+                    <!-- Pub Card 3 -->
+                    <div class="pub-card"
+                        onclick="openPubModal('Menanamkan Nilai-Nilai Kepedulian Sosial pada Siswa SD terhadap Implementasi Mata Pelajaran IPS', 'Jurnal Pendidikan Dasar dan Humaniora', '28 December 2023', 'https://mail.bajangjournal.com/index.php/JPDSH/article/view/6678')">
+                        <div class="pub-number-ribbon">
+                            <span class="pub-num">03</span>
+                        </div>
+                        <div class="pub-details">
+                            <h3>Menanamkan Nilai-Nilai Kepedulian Sosial pada Siswa SD terhadap Implementasi Mata
+                                Pelajaran IPS</h3>
+                            <p class="pub-source">Jurnal Pendidikan Dasar dan Humaniora</p>
+                            <p class="pub-year">Dec 28, 2023</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column: IPR Card -->
+                <div class="ipr-column">
+                    <div class="ipr-card"
+                        onclick="openPubModal('Fun-tastic House Tour: A Reading Journey', 'Copyright (HKI) — Digital Learning Media', '22 November 2025', 'https://pdki-indonesia.dgip.go.id/detail/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'EC002025189462', 'https://drive.google.com/thumbnail?id=1iCWp5GveNSa8UE9ciKzLM8PQKuZ_d0WU&sz=w1000')">
+                        <img src="https://drive.google.com/thumbnail?id=1s1NPrPwlTISwQcr_I1YmCb22Q0ISRVy-&sz=w1000" alt="IPR Shield" class="ipr-shield-img">
+                        <div class="ipr-details">
+                            <h3>Intellectual Property Rights (IPR)</h3>
+                            <h4>Digital Learning Media</h4>
+                            <h3 class="ipr-title-red">"Fun-tastic House Tour: A Reading Journey"</h3>
+                            <p class="ipr-meta">Nov 22, 2025 | Registration No: EC002025189462</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section fade-up">
+            <h2 class="section-title">SKILLS</h2>
+
+            <div class="skills-category">
+                <h3 class="skills-subtitle">Skills</h3>
+                <div class="skills-pill-container">
+                    <span class="skill-pill">Interactive Digital Learning Media Development</span>
+                    <span class="skill-pill">Learning Module Development</span>
+                    <span class="skill-pill">AI Content Creation</span>
+                    <span class="skill-pill">Lesson Planning</span>
+                    <span class="skill-pill">Classroom Management</span>
+                    <span class="skill-pill">Character Building</span>
+                    <span class="skill-pill">Student Engagement</span>
+                </div>
+            </div>
+
+            <div class="skills-category">
+                <h3 class="skills-subtitle">Digital Tools</h3>
+                <div class="skills-pill-container">
+                    <span class="skill-pill"><i class="fas fa-paint-brush"></i> Canva</span>
+                    <span class="skill-pill"><i class="fas fa-layer-group"></i> Genially</span>
+                    <span class="skill-pill"><i class="fas fa-code"></i> HTML, CSS & JavaScript</span>
+                    <span class="skill-pill"><i class="fab fa-github"></i> GitHub Pages</span>
+                    <span class="skill-pill"><i class="fas fa-video"></i> CapCut</span>
+                    <span class="skill-pill"><i class="fas fa-gamepad"></i> Kahoot</span>
+                    <span class="skill-pill"><i class="fas fa-vr-cardboard"></i> Wayground</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section fade-up contact-section">
+            <div class="contact-container">
+                <div class="contact-left">
+                    <p class="contact-label">LET'S CONNECT</p>
+                    <h2 class="contact-heading">Let's Create Meaningful<br>Learning Experiences.</h2>
+                    <p class="contact-paragraph">I am open to teaching opportunities, educational projects, and digital learning collaborations.</p>
+                    
+                    <ul class="contact-list">
+                        <li><i class="fas fa-envelope"></i> syifaanina18@gmail.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> South Jakarta, Indonesia</li>
+                    </ul>
+
+                    <a href="https://www.linkedin.com/in/syifaanina/" target="_blank" class="btn btn-outline">
+                        View LinkedIn Profile <i class="fab fa-linkedin-in" style="margin-left: 8px;"></i>
+                    </a>
+                </div>
+                
+                <div class="contact-right">
+                    <div class="contact-card">
+                        <div class="contact-card-icon"><i class="fas fa-handshake"></i></div>
+                        <h3 class="contact-card-heading">Let's Work Together</h3>
+                        <p class="contact-card-text">Have an opportunity, project, or collaboration in mind? Feel free to reach out anytime.</p>
+                        <a href="mailto:syifaanina18@gmail.com" class="btn btn-primary contact-email-btn">
+                            Send Me an Email <i class="fas fa-paper-plane" style="margin-left: 8px;"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 Syifa Sabrina. All rights reserved.</p>
+        </footer>
+
+    </main>
+
+    <!-- Modal Popup for Projects -->
+    <!-- Project Modal -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content project-modal-content">
+            <button class="close-modal"><i class="fas fa-times"></i></button>
+            <div class="project-modal-body">
+                <h2 class="project-modal-title">Project Title</h2>
+                <div class="project-iframe-container">
+                    <div class="iframe-loading">
+                        <div class="loading-spinner"></div>
+                        <p>Loading featured projects...</p>
+                    </div>
+                    <p class="project-iframe-fallback">Klik tombol di bawah untuk membuka proyek ini.</p>
+                    <iframe class="project-iframe" src="" frameborder="0" scrolling="yes" allowfullscreen></iframe>
+                </div>
+                <div class="project-modal-footer">
+                    <a href="#" target="_blank" class="btn btn-primary project-open-btn">Open Project <i
+                            class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Publication Modal -->
+    <div class="modal" id="pubModal">
+        <div class="modal-content pub-modal-content">
+            <button class="close-modal pub-close-modal"><i class="fas fa-times"></i></button>
+            <div class="modal-body pub-modal-body">
+                <div class="pub-modal-header">
+                    <h2 class="modal-title pub-title">Title</h2>
+                    <p class="pub-meta"><span class="pub-modal-source">Source</span> | <span
+                            class="pub-modal-date">Date</span></p>
+                    <p class="pub-reg-number" style="display: none;"></p>
+                </div>
+
+                <div class="pub-iframe-container">
+                    <div class="iframe-loading">
+                        <div class="loading-spinner"></div>
+                        <p>Opening publication page...</p>
+                    </div>
+                    <p class="iframe-fallback">This page is best viewed on the official website. Please click the button
+                        below to open it.</p>
+                    <iframe class="pub-iframe" src="" frameborder="0"
+                        sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
+                    <img class="pub-image-embed" src="" alt="IPR Image"
+                        style="display: none; width: 100%; height: auto; position: relative; z-index: 3; background-color: #f8f9fa;">
+                </div>
+
+                <div class="pub-modal-footer">
+                    <a href="#" target="_blank" class="btn btn-primary pub-open-btn">Open Publication <i
+                            class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
